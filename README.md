@@ -34,14 +34,16 @@ pip install -r requirements.txt
 
 The key files are listed below:
 
+```
 optimal-leverage-constrained-portfolio/
-├── config.py # Configuration file to store settings (e.g., data source, training parameters, model hyper-parameters, etc).
-├── data/ # Directory to hold training data (tensors).
-│ └── random_data.pt # A dummy data file (PyTorch tensor) included for demonstration.
-├── models.py # Implements the RCNN model proposed in the paper.
-├── objective.py # Implements the cumulative quadratic shortfall (CS) objective function.
-├── train.py # Main script for model training.
-└── wealth.py # Implements the wealth evolution function for calculating wealth trajectories.
+├── config.py           # Configuration file to store settings (e.g., data source, training parameters, model hyper-parameters, etc).
+├── data/               # Directory to hold training data (tensors).
+│ └── random_data.pt    # A dummy data file (PyTorch tensor) included for demonstration.
+├── models.py           # Implements the RCNN model proposed in the paper.
+├── objective.py        # Implements the cumulative quadratic shortfall (CS) objective function.
+├── train.py            # Main script for model training.
+└── wealth.py           # Implements the wealth evolution function for calculating wealth trajectories.
+```
 
 ## Usage
 
